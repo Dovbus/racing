@@ -19,7 +19,7 @@ You should use following stack:
 - Testing Library
 
 We will assess by following criteria:
-- How you application works
+- How your application works
 - Project structure, files and folders organization
 - Code quality, readability, etc.
 - React knowledge

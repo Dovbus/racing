@@ -20,7 +20,7 @@ export function RacingTable() {
                 <BodyCell>
                   {index + 1}. {horse.name}
                 </BodyCell>
-                <BodyCell>{horse.distance}</BodyCell>
+                <BodyCell data-testid="distance">{horse.distance}</BodyCell>
               </TableRow>
             );
           })}

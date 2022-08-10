@@ -9,6 +9,7 @@ const Title = styled.h1`
   background: #fff4a3;
   padding: 0.5rem 0;
 `;
+
 const Wrapper = styled.div`
   max-width: 40rem;
   margin: 0 auto;

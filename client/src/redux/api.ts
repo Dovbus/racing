@@ -33,7 +33,6 @@ export const horsesApi = createApi({
                   horse.dateWin = prevRound?.dateWin || 0;
                 }
               });
-              console.log(round);
               Object.assign(
                 draft,
                 round.sort((a: Horse, b: Horse) => b.distance - a.distance || a.dateWin - b.dateWin)
